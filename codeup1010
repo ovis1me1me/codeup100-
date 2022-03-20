@@ -1,0 +1,10 @@
+#include<stdio.h>
+#pragma warning(disable:4996)//scanf_s가 비주얼스튜디오 권장이라서 scanf쓰면 에러 뜸
+
+int main(void)
+{
+	int n;
+	scanf("%d", &n);
+	printf("%d", n);
+	return 0;
+}
